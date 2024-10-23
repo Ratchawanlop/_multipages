@@ -1,0 +1,30 @@
+.main-container{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 980px;
+    background-image: url('/_multipages/field.jpeg')
+    /* background-size: 100%; */
+  }
+  .main-title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .All-Grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    grid-template-rows: 1fr 0fr;
+  }
+  /* #name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  } */
+
+
+
+
+
+
+

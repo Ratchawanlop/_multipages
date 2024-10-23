@@ -1,0 +1,21 @@
+.temperature-container{
+    border: 2px solid black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+}
+.temperatures-title{
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding:1px 7px;
+    background-color: black;
+}
+.temperatures-variables{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5rem;
+    justify-content: center;
+    /* font-size: 12px; */
+}

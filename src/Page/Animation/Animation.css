@@ -1,0 +1,47 @@
+#container {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#field {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url('/_multipages/field.jpeg');
+    background-position: center;
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    position: relative; /* Make it a positioning context for absolute child */
+}
+
+#ball {
+    border: 0.5px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: azure;
+    position: absolute; /* Changed to absolute for proper positioning */
+    background-position: center;
+    background-size: 134%;
+    animation: spin 2s linear infinite; /* Keep the spin animation */
+}
+
+#run {
+    margin: 10px;
+}
+
+#control {
+    margin: 10px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
